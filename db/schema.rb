@@ -10,16 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_03_03_130136) do
-
+ActiveRecord::Schema[7.0].define(version: 2023_03_03_130136) do
   create_table "projects", force: :cascade do |t|
     t.string "title"
     t.string "description"
     t.string "image_url"
     t.string "project_Github_url"
     t.integer "user_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_projects_on_user_id"
   end
 
@@ -27,8 +26,8 @@ ActiveRecord::Schema.define(version: 2023_03_03_130136) do
     t.string "name"
     t.string "description"
     t.integer "user_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_skills_on_user_id"
   end
 
@@ -39,8 +38,8 @@ ActiveRecord::Schema.define(version: 2023_03_03_130136) do
     t.string "password_digest", null: false
     t.string "career"
     t.string "bio"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "projects", "users"
