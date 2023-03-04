@@ -27,6 +27,7 @@ gem 'require_all', '~> 3.0'
 
 gem "rack-cors", "~> 1.1"
 
+
 gem 'faker'
 
 group :development do

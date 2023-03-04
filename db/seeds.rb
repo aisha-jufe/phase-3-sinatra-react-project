@@ -1,5 +1,7 @@
 puts "Seeding data"
 
+joe = User.create(first_name: "joe", last_name: "Doe", email: "joe@example.com", password: "myPassoword")
+
 users_list = []
 
 50.times do
@@ -19,7 +21,7 @@ users_list.each do |user|
         title: Faker::Lorem.word,
         description: Faker::Lorem.sentence,
         image_url: Faker::Internet.url,
-        project_status: "completed",
+        # project_status: "completed",
         project_Github_url: Faker::Internet.url,
         user_id: user.id
     )
@@ -37,4 +39,5 @@ users_list.each do |user|
 end
 end
 
-puts "Done seeding"
+
+puts 'Done seeding'
