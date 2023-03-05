@@ -73,7 +73,7 @@ collaborate, if you're working with a partner.
 
 ### Fetch Example
 
-Your React app should make fetch requests to your Sinatra backend! Here's an
+my  React app should make fetch requests to your Sinatra backend! Here's an
 example:
 
 ```js
