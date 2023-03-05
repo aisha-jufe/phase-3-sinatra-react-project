@@ -1,23 +1,16 @@
-# Phase 3 Project Guidelines
+# Phase 3 Project 
 
-## Learning Goals
+# PORPOSE
 
-- Build a web basic API with Sinatra and Active Record to support a React
+- Building a web basic API with Sinatra and Active Record to support a React
   frontend
 
 ## Introduction
 
-Congrats on getting through all the material for Phase 3! Now's the time to put
-it all together and build something from scratch to reinforce what you know and
-expand your horizons.
 
 The focus of this project is **building a Sinatra API backend** that uses
 **Active Record** to access and persist data in a database, which will be used
-by a separate **React frontend** that interacts with the database via the API.
-
-## Requirements
-
-For this project, you must:
+by a separate **React frontend** that interacts with the database via 
 
 - Use Active Record to interact with a database.
 - Have at least two models with a one-to-many relationship.
@@ -46,15 +39,7 @@ For this project, you must:
 For example, build a todo list application with a React frontend interface and a
 Sinatra backend API, where a user can:
 
-- **Create** a new todo
-- **Read** a list of all todos
-- **Update** an individual todo
-- **Delete** a todo
 
-A `Todo` can be tagged with a `Category`, so that each todo _belongs to_ a
-category and each category _has many_ todos.
-
-## Getting Started
 
 ### Backend Setup
 
