@@ -36,8 +36,7 @@ by a separate **React frontend** that interacts with the database via
   should NOT be relying on filtering front end state or a separate fetch request to
   retrieve related data.
 
-For example, build a todo list application with a React frontend interface and a
-Sinatra backend API, where a user can:
+
 
 
 
